@@ -1,0 +1,31 @@
+{
+  "name": "todo_note",
+  "version": "1.0.0",
+  "description": "vue+webpack打造todo应用学习源码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaocao/todo_note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaocao/todo_note/issues"
+  },
+  "homepage": "https://github.com/zhaocao/todo_note#readme",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.5.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.14"
+  }
+}
